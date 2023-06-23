@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .description {
+    line-height: 1.4;
+    max-height: 5.6em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+  
+  .button {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    color: #141414;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
